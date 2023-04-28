@@ -9,6 +9,13 @@ npm install capacitor-gallery
 npx cap sync
 ```
 
+### Video Examples
+
+<p align="center">
+  <img src="https://github.com/fede4ka1245/CapacitorGallery/blob/main/ios_example.gif" height="520px" width="250px" />
+  <img src="https://github.com/fede4ka1245/CapacitorGallery/blob/main/android_example.gif" height="520px" width="250px" />
+</p>
+
 ### Code Example
 
 ```javascript
@@ -21,7 +28,7 @@ CapacitorGallery.getGalleryItems({
   });
 ```
 
-Instead of loading all assets you can use offset to split all assets by groups and load them as you need them
+Instead of loading all assets you can use offset to split all assets by groups and load them as you need them. See [example](https://github.com/fede4ka1245/CapacitorGallery/tree/main/example)
 
 ## API
 
