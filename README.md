@@ -2,6 +2,18 @@
 
 Plugin to grab assets from device filesystems. Any contribution are welcome!
 
+## Requirements
+
+You need to include following permissions in Android Manifest:
+```
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
+You need to configure info.plist for ios build:
+* Privacy - Photo Library Additions Usage Description
+* Privacy - Photo Library Usage Description
+
 ## Install
 
 ```bash
