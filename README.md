@@ -1,6 +1,6 @@
 # capacitor-gallery
 
-Plugin to grab assets from device filesystems. Any contribution are welcome!
+Plugin to grab assets from device filesystems. Any contributions are welcome!
 
 ## Install
 
@@ -28,7 +28,7 @@ CapacitorGallery.getGalleryItems({
   });
 ```
 
-Instead of loading all assets you can use offset to split all assets by groups and load them as you need them. See [example](https://github.com/fede4ka1245/CapacitorGallery/tree/main/example)
+Instead of loading all assets you can use offset to split all assets by groups and load them as you need them. See an [example](https://github.com/fede4ka1245/CapacitorGallery/tree/main/example)
 
 ## API
 
